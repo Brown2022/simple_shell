@@ -16,7 +16,7 @@ Requeriments
 
 . Code should use the Betty style. it will be checked using [betty-style.pl]
 
- (https://github.com/holbertonschool/Betty/blob/master/betty-style\ .pl) and betty-doc.pl
+  (https://github.com/holbertonschool/Betty/blob/master/betty-style\ .pl) and betty-doc.pl
 
 . No more than 5 functions per file
 
@@ -145,6 +145,6 @@ List of functions
 |wait|  wait for process to change state|
 |waitpid|  wait for a child process to stop or terminate|
 |wait3|  wait for a child process to stop or terminate|
-|wait4|  wait for process to change state, BSD style
+|wait4|  wait for process to change state, BSD style|
 |write|  write to a file descriptor|
 	
