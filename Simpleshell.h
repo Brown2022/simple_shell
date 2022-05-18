@@ -22,8 +22,6 @@ int chdir(const char *path);
 int close(int fd);
 int closedir(DIR *dirp);
 int execve(const char *pathname, char *const argv[], char *const envp[]);
-noreturn void exit(int status);
-noreturn void _exit(int status);
 int fflush(FILE *stream);
 pid_t fork(void);
 void free(void *ptr);
@@ -35,7 +33,6 @@ pid_t getppid(void);
 int isatty(int fd);
 int kill(pid_t pid, int sig);
 void *malloc(size_t size);
-int open(const char *pathname, int flags);
 DIR *opendir(const char *name);
 void perror(const char *s);
 ssize_t read(int fd, void *buf, size_t count);
@@ -55,7 +52,16 @@ int _putchar(char);
 int puts(const char *str);
 int op_add(int arg1,int arg2);
 void print_arg(int *arg);
-
-
+int _stat(char **cmd, char **path);
+void _puts(char *str);
+void prompt(void);
+char **sparse_str(char *line, char **env);
+char *_itoa(int num, int base);
+char **search_path(char **environ);
+char *read_input(void);
+int child_process(char **av, char **args, char **environ, int st, int countt);
+int _strcmp(char *s1, char *s2);
+void handle_signal(int signal);
+int func_exit(char **args);
 #endif
 
