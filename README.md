@@ -1,5 +1,7 @@
-Holberton School robot Simple Shell
------------------------------------
+Steve and Optimist Shell
+------------------------
+https://camo.githubusercontent.com/02b0ae9b0f75acbd06b7df2243fe8818f185f5d652d98131353617721ccf17a9/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f696e7472616e65742d70726f6a656374732d66696c65732f686f6c626572746f6e7363686f6f6c2d6c6f775f6c6576656c5f70726f6772616d6d696e672f3233352f7368656c6c2e6a706567
+
 Synopsis
 --------
 This is a humble and simple implementation of a UNIX command line interpreter.
@@ -98,10 +100,9 @@ Below you can see all the process flow in general terms that was taken into acco
 
 https://user-images.githubusercontent.com/60367519/79517219-2adbc000-8013-11ea-9835-30bf7c59a41e.jpg
 
-
 Quick start 
 -----------
-git clone https://github.com/Brown2022/simple-shell.git
+www.github.com://Brown2022/simple_shell
 
 Compilation 
 -----------
